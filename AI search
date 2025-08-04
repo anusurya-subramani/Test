@@ -1,0 +1,18 @@
+Why we study Theory of Computation?
+Automata theory is a fundamental area of computer science, with real-world applications in various systems and domains.
+
+1. Regular Expressions (RE) in Systems
+Regular expressions are powerful tools for pattern matching and text processing used extensively in many systems.
+
+Examples:
+
+UNIX: In UNIX, regular expressions like a.*b are used for matching text patterns within files, making it easier to search for specific content across vast datasets.
+XML and DTDs: Document Type Definitions (DTDs) describe the structure of XML documents using regular expressions. For example, a tag like person (name, addr, child*) ensures that the person tag must include a name, an addr, and optionally multiple child tags.
+Programming Languages: Almost all modern programming languages have libraries for regular expression that allow us to do text processing.
+2. Finite Automata in Modeling Systems
+Modeling Protocols and Circuits: Finite automata (FA) are used to model protocols, like those in network communication, and to design electronic circuits that operate based on a set of predefined rules or states.
+Model-Checking: FA theory is also applied in model-checking, which is used to verify whether a system behaves as expected under all possible conditions.
+3. Context-Free Grammars (CFG)
+Syntax of Programming Languages: Context-free grammars are essential in describing the syntax of most programming languages. They define the rules that specify how programs should be written and structured.
+Natural Language Processing: CFGs also play a vital role in computational linguistics, helping to describe the structure of natural languages like English.
+XML and DTDs as CFGs: DTDs (Document Type Definitions) can be thought of as a specific application of context-free grammars, as they define the structure of XML documents.
